@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import Header from '../../../components/Header';
+import Footer from '../../../components/Footer';
 import Image from 'next/image';
-import VaultCard from '../../components/VaultCard';
+import VaultCard from '../../../components/VaultCard';
 
 const vaults = [
   {

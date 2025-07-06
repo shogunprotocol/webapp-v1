@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image';
 import Link from 'next/link';
-import { Home, Wallet, X } from 'lucide-react';
+import { Home, Wallet, X, Brain } from 'lucide-react';
 import { colors } from '../lib/colors';
 import { Navigation } from './Navigation';
 import clsx from 'clsx';
@@ -23,6 +23,7 @@ const Header = () => {
   const navItems = [
     { name: 'Home', icon: Home, href: '/' },
     { name: 'Vaults', icon: Wallet, href: '/vaults' },
+    { name: 'Thoughts', icon: Brain, href: '/thoughts' },
     { name: 'Council', icon: null, href: '/council', disabled: true },
   ];
 

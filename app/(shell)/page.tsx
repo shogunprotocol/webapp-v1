@@ -1,7 +1,7 @@
-import BalanceCard from '../components/BalanceCard';
-import EarningsCard from '../components/EarningsCard';
-import HistoryCard from '../components/HistoryCard';
-import SocialCard from '../components/SocialCard';
+import BalanceCard from '../../components/BalanceCard';
+import EarningsCard from '../../components/EarningsCard';
+import HistoryCard from '../../components/HistoryCard';
+import SocialCard from '../../components/SocialCard';
 
 export default function Home() {
   return (
