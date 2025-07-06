@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Basement+Grotesque:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aeonik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belgro:wght@400;500;600;700&display=swap');
+
+:root {
+  --background: #000000; /* Black background */
+  --foreground: #ffffff; /* White text */
+  --cyan: #44FBDE; /* Cyan accent color */
+  --font-basement: 'Basement Grotesque', sans-serif;
+  --font-aeonik: 'Aeonik', sans-serif;
+  --font-belgro: 'Belgro', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#020409] text-white;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-[24px] bg-[#121720] border border-[#1C2431] p-4 backdrop-blur-xl;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-[#5FFBF1] to-[#0EC1FB] bg-clip-text text-transparent;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-r from-[#5FFBF1] to-[#0EC1FB];
+  }
+}
+
+appkit-button {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 9999px !important;
+  --w3m-accent: #5a7cff !important; /* Blue for inner button */
+  --w3m-default: #fff !important;   /* White text */
+}
+
+appkit-button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+appkit-button.connect-wallet-btn {
+  background: #5a7cff !important; /* Blue background */
+  color: #fff !important;
+  border-radius: 9999px !important;
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 0.5rem 2.5rem;
+  min-width: 200px;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  transition: transform 0.15s;
+  display: inline-block;
+}
+appkit-button.connect-wallet-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.95;
+} 

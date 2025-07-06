@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Basement Grotesque';
+  src:
+    url('/fonts/basement/BasementGrotesque-Black_v1.202.woff2') format('woff2'),
+    url('/fonts/basement/BasementGrotesque-Black_v1.202.woff') format('woff'),
+    url('/fonts/basement/BasementGrotesque-Black_v1.202.otf') format('opentype');
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Belgro';
+  src:
+    url('/fonts/belgro/Belgro.otf') format('opentype'),
+    url('/fonts/belgro/Belgro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/aeonik/Aeonik-Pro-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
