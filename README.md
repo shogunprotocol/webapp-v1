@@ -7,9 +7,9 @@ Welcome to **Shōgun DeFi**, a next-generation, AI-powered DeFi platform for Flo
 ## 🚀 What is Shōgun?
 
 Shōgun is a full-stack, multi-chain DeFi system that combines:
-- **[shogun-ai-core](https://github.com/yourusername/shogun-ai-core)**: The AI agent backend for strategy planning, risk assessment, and execution.
-- **[shogun-contracts](https://github.com/yourusername/shogun-contracts)**: Smart contracts for vaults, strategies, logging, and protocol integration.
-- **[shogun-webapp](https://github.com/yourusername/shogun-webapp)** (this repo): The modern, responsive dashboard for users and institutions.
+- **[shogun-ai-core](https://github.com/shogunprotocol/shogun-ai-core)**: The AI agent backend for strategy planning, risk assessment, and execution.
+- **[shogun-contracts](https://github.com/tomi204/AI-VAULTS-MODULAR)**: Smart contracts for vaults, strategies, logging, and protocol integration.
+- **[shogun-webapp](https://github.com/shogunprotocol/webapp-v1)** (this repo): The modern, responsive dashboard for users and institutions.
 
 **At Shōgun, we believe DeFi should be transparent, auditable, and accessible to everyone.**
 
@@ -78,12 +78,12 @@ Shōgun is a full-stack, multi-chain DeFi system that combines:
 
 ## 🧠 How It Works: The Shogun Stack
 
-- **[shogun-ai-core](https://github.com/yourusername/shogun-ai-core):**
+- **[shogun-ai-core](https://github.com/shogunprotocol/shogun-ai-core):**
   - The backend AI agent for planning, risk, and execution.
   - LLM-based strategy generation, risk scoring, and onchain logging.
-- **[shogun-contracts](https://github.com/yourusername/shogun-contracts):**
+- **[shogun-contracts](https://github.com/tomi204/AI-VAULTS-MODULAR):**
   - Solidity/Cadence contracts for vaults, strategies, logging, and protocol integration.
-- **[shogun-webapp](https://github.com/yourusername/shogun-webapp):**
+- **[shogun-webapp](https://github.com/shogunprotocol/webapp-v1):**
   - The user dashboard for deposits, monitoring, and transparency.
 
 ---
@@ -92,7 +92,7 @@ Shōgun is a full-stack, multi-chain DeFi system that combines:
 
 An AI-powered DeFi strategy agent for Flow and Filecoin, specializing in cross-protocol yield optimization, onchain transparency, and consumer-friendly experiences. Shogun AI Core leverages LLM-based planning, risk assessment, and multi-chain vaults to deliver next-generation DeFi strategies.
 
-[Full Shogun AI Core README](https://github.com/yourusername/shogun-ai-core#readme)
+[Full Shogun AI Core README](https://github.com/shogunprotocol/shogun-ai-core#readme)
 
 ---
 
