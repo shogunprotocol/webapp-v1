@@ -108,7 +108,7 @@ const Presentation = () => {
             <div className="text-center">
               <div className="mb-8">
                 <Image 
-                  src={slide.logo} 
+                  src={slide.logo || '/logo/shogunLogo.png'} 
                   alt="Shogun Logo" 
                   width={200} 
                   height={200}
