@@ -237,9 +237,9 @@ export default function DepositDrawer({ open, onClose, vaultName }: DepositDrawe
   // Example vault info (replace with real data as needed)
   const vaultDescription = "SuperUSDC optimizes USDC returns across blue-chip lending protocols by automatically rebalancing between vaults using predictive onchain data. Secured by Yearn v3.";
   const yieldSources = [
-    { name: 'Aave', icon: '/yieldSources/aave.png' },
-    { name: 'Shadow', icon: '/yieldSources/shadowLogo.svg' },
-    { name: 'Swapx', icon: '/yieldSources/swapxLogo.jpg' },
+    { name: 'KittyPunch', icon: '/logo/kittypunch.png' },
+    { name: 'MORE Markets', icon: '/logo/moremarkets.webp' },
+    { name: 'Ankr', icon: '/logo/ankr.webp' },
   ];
 
   const formattedBalance = tokenBalance ? formatUnits(tokenBalance.value, tokenBalance.decimals) : '0';
